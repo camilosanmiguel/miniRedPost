@@ -15,7 +15,7 @@ app.use(cors());
 app.use("/api/role",Role);
 app.use("/api/user",User);
 app.use("/api/auth",Auth);
-app.use("/api/post",Board);
+app.use("/api/post",Post);
 
 app.listen(process.env.PORT, () => console.log("backen server runnin ok, on port: ",process.env.PORT));
 
